@@ -20,3 +20,7 @@ notebooks/others/
 circuits/
 results/pairwise/ibm_falcon/
 results/pairwise/quantinuum/
+
+# macOS system files
+.DS_Store
+**/.DS_Store
