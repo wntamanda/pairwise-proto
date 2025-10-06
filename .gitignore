@@ -1,0 +1,22 @@
+# Ignore Jupyter auto-generated stuff
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Ignore Python caches
+__pycache__/
+**/__pycache__/
+
+# Ignore testing folders
+others/
+scripts/others/
+notebooks/others/
+
+# Ignore build
+*.log
+*.tmp
+*.bak
+
+# Ignore large circuit and raw result files
+circuits/
+results/pairwise/ibm_falcon/
+results/pairwise/quantinuum/

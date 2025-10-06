@@ -1,0 +1,39 @@
+name: pairwise-proto
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.7
+  - pip
+  # Jupyter
+  - ipykernel=6.30.*
+  - jupyterlab=4.4.*
+  # Numerics & data
+  - numpy=2.3.*
+  - scipy=1.16.*
+  - pandas=2.3.*
+  - scikit-learn=1.7.*
+  # Graphs & plotting
+  - matplotlib=3.10.*
+  - networkx=3.5
+  - rustworkx=0.17.*
+  # Parsing / QASM helpers
+  - openqasm3=1.0.*
+  - lark=1.2.*
+  - sympy=1.14.*
+  # Graphviz
+  - graphviz
+  - python-graphviz=0.21.*
+  # Used by notebooks
+  - psutil
+  - python-dateutil
+  - packaging
+  - tqdm
+  - pip:
+      - qiskit==2.1.2
+      - qiskit-aer==0.17.1
+      - qiskit-ibm-runtime==0.41.1
+      - qiskit-qasm3-import==0.6.0
+      - pytket==2.9.3
+      - pytket-qiskit==0.71.0
+      - mqt.bench==2.0.1
+      - qwasm==1.0.1
